@@ -1,0 +1,40 @@
+.white{
+    color: white;
+}
+
+hr{
+    width: 30%;
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url("./fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url("./fonts/Lato-Bold.ttf") format("truetype");
+}
+.star-container {
+    width: 200px;
+    .star-line {
+        hr.white {
+            background-color: white;
+        }
+        hr.dark {
+            background-color: black;
+        }
+        .star-icon {
+            padding-top:8px;
+        }
+    }
+}
+
+
+@import "navbar";
+@import "masthead";
+@import "portfolio";
+@import "about";
+@import "contact";
+@import "footer";
+

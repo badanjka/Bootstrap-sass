@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(44,62,80);
+    color: white;
+    font-family: "Bold";
+    .regular{
+        font-family: "Bold";
+    }
+    button{
+        border-color: white;
+        margin-top: 5px;
+    }
+   
+}
+@media (max-width: 575.98px) { 
+    .button{
+        background-color:rgb(61,188,155) ;
+       
+    }
+ }
+
+
